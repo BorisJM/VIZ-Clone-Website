@@ -1,0 +1,412 @@
+@media (max-width: 87.5em) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .naruto-img {
+    display: none;
+  }
+
+  .newsletter-section::before {
+    content: none;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 75%;
+  }
+
+  .cover-section {
+    gap: 5rem;
+  }
+
+  .manga-navigation ul {
+    gap: 2rem;
+  }
+
+  .manga-volume {
+    max-width: 83.875rem;
+  }
+
+  .cover-description p {
+    line-height: 1.7;
+  }
+
+  .jump-to {
+    font-size: 1.5rem;
+  }
+
+  .genre-heading li a {
+    font-size: 1.3rem;
+  }
+
+  .column-new h1 {
+    padding: 15px 15px;
+  }
+}
+
+/* TABLETS   */
+
+@media (max-width: 62.5em) {
+  /* html {
+    font-size: 68.75%;
+  } */
+
+  nav {
+    height: auto;
+    background-color: #fff;
+    margin-bottom: 9rem;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .nav-manga-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+  }
+
+  .search-btn {
+    top: 7px;
+    right: 20px;
+  }
+
+  #first-column {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+
+  .nav-manga-list li a {
+    line-height: 1;
+    font-size: 1.3rem;
+  }
+
+  .nav-list {
+    gap: 0.3rem;
+  }
+
+  .menu-toggle {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .close-word {
+    color: #fff;
+    font-size: 3rem;
+    font-family: CircularBold;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 700;
+  }
+
+  .menu-word {
+    text-transform: uppercase;
+    font-family: Circular;
+    font-size: 2rem;
+  }
+
+  .menu-icon {
+    display: inline-block;
+    color: #2e2e2e;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: CircularBold;
+  }
+
+  .close {
+    color: #fff;
+  }
+
+  form {
+    grid-row: 3;
+    margin-right: 0;
+    width: 17rem;
+  }
+
+  .search-field {
+    width: 17rem;
+  }
+
+  .nav-list li a {
+    font-size: 2.7rem;
+  }
+
+  .close-word {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .manga-navigation {
+    display: none;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100vh;
+    z-index: 1;
+    padding: 1.5rem 0;
+    transform: translateX(-100%);
+    background-color: #2e2e2e;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: start;
+    opacity: 0;
+    gap: 2rem;
+    transition: all 0.3s;
+    grid-template-columns: 80%;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-list li a {
+    color: #fff;
+  }
+
+  .container-nav {
+    grid-template-rows: auto;
+    grid-template-columns: 5fr 1fr;
+  }
+
+  .col-2 {
+    padding: 0 2rem;
+    justify-self: end;
+  }
+
+  .viz-logo {
+    height: 45px;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .heading-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+  }
+
+  .cover-section {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .column-new {
+    font-size: 0.8rem;
+  }
+
+  .newsletter-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .sign-newsletter {
+    width: auto;
+  }
+}
+
+@media (max-width: 50em) {
+  .nav-menu {
+    width: 40%;
+  }
+
+  .volumes-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 0 8rem;
+  }
+
+  .newsletter-section {
+    grid-template-columns: 1fr;
+    height: auto;
+    row-gap: 2rem;
+  }
+
+  .newsletter-description {
+    margin-top: 2rem;
+  }
+
+  .sign-newsletter {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .links-column {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .heading-column {
+    display: block;
+  }
+
+  .manga-name {
+    font-size: 1.6rem;
+  }
+
+  .titles-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    padding: 0 5rem;
+  }
+
+  .newsletter-second {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+  }
+
+  .links-column ul li a {
+    font-size: 1.6rem;
+  }
+
+  .btn-buy {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 57.5%;
+  }
+
+  form {
+    width: 16rem;
+  }
+
+  .search-field {
+    width: 15rem;
+  }
+
+  .volumes-container {
+    padding: 0;
+  }
+
+  .titles-container {
+    padding: 0;
+  }
+
+  .cover-img {
+    width: 100%;
+  }
+
+  .genre-heading {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .genre-heading li a {
+    font-size: 1.5rem;
+  }
+
+  .column-new {
+    font-size: 0.95rem;
+  }
+
+  .see-btn {
+    font-size: 1.5rem;
+  }
+
+  .author,
+  .btn-more {
+    font-size: 1.5rem;
+  }
+
+  .column p {
+    font-size: 1.7rem;
+  }
+
+  .column a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .footer-logo {
+    margin-left: 0;
+    height: 30px;
+  }
+
+  .black-logo {
+    height: 65px;
+  }
+
+  .nav-menu {
+    width: 60%;
+  }
+
+  .volumes-container {
+    grid-template-columns: 1fr;
+    padding: 0 3rem;
+  }
+
+  .title-description {
+    font-size: 2.5rem;
+  }
+
+  .read-heading {
+    font-size: 3.4rem;
+  }
+
+  .cover-description p,
+  .btn-buy {
+    font-size: 1.8rem;
+  }
+
+  .heading-container {
+    flex-direction: column;
+  }
+
+  .other-heading {
+    font-size: 2.5rem;
+    line-height: 1.4;
+  }
+
+  .see-btn {
+    font-size: 1.8rem;
+  }
+
+  .manga-name {
+    font-size: 2rem;
+  }
+
+  .titles-container {
+    grid-template-columns: 1fr;
+    padding: 0 4rem;
+  }
+
+  .author,
+  .btn-more {
+    font-size: 1.5rem;
+  }
+
+  .newsletter-second {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .links-column ul li a {
+    font-size: 1.6rem;
+  }
+
+  .column p {
+    font-size: 1.7rem;
+  }
+
+  .column a {
+    font-size: 1.6rem;
+  }
+}
